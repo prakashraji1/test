@@ -13,7 +13,7 @@ with open("names.txt", 'r', encoding='utf-8') as names_file:
 
         # iterate over names
         for name in names_file:
-            mail = "Hello " + name.strip() + "\n" + body
+            mail = "how r u" + name.strip() + "\n" + body
 
             # write the mails to individual files
             with open(name.strip()+".txt", 'w', encoding='utf-8') as mail_file:
